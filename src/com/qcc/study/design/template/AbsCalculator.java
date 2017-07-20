@@ -20,6 +20,7 @@ public abstract class AbsCalculator {
         return arr;
     }
 
+    /*被子类重写的方法*/
     public abstract int calculate(int num1, int num2);
 
 }
